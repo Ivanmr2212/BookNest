@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\view\\usuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|solutionrelative:view\\usuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|c:\\users\\ivanm\\desktop\\proyecto tfg\\booknest\\view\\addclub.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|solutionrelative:view\\addclub.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\view\\clubs.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|solutionrelative:view\\clubs.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\view\\usuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|solutionrelative:view\\usuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\view\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|solutionrelative:view\\perfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|solutionrelative:view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\view\\libroinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|BookNest.csproj|solutionrelative:view\\libroinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Clubs.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Clubs.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Clubs.xaml.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Clubs.xaml.cs",
+              "RelativeToolTip": "View\\Clubs.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T17:51:57.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddClub.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\AddClub.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddClub.xaml.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\AddClub.xaml.cs",
+              "RelativeToolTip": "View\\AddClub.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwFYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:07:33.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuarios.xaml",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Usuarios.xaml",
+              "RelativeDocumentMoniker": "View\\Usuarios.xaml",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Usuarios.xaml",
+              "RelativeToolTip": "View\\Usuarios.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T09:17:25.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuarios.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Usuarios.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Usuarios.xaml.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Usuarios.xaml.cs",
+              "RelativeToolTip": "View\\Usuarios.xaml.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:57:56.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Perfil.xaml",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Perfil.xaml",
+              "RelativeDocumentMoniker": "View\\Perfil.xaml",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Perfil.xaml",
+              "RelativeToolTip": "View\\Perfil.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T06:58:31.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibroInfo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\LibroInfo.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LibroInfo.xaml.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\LibroInfo.xaml.cs",
+              "RelativeToolTip": "View\\LibroInfo.xaml.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAA9wGYBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T08:32:11.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\PROYECTO TFG\\BookNest\\View\\Home.xaml.cs",
+              "RelativeToolTip": "View\\Home.xaml.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAIwKoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:50:27.564Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

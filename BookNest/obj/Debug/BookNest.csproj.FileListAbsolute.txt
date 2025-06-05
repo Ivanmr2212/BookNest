@@ -1,0 +1,249 @@
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\MyReads.exe.config
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\MyReads.exe
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\MyReads.pdb
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Google.Protobuf.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\MySql.Data.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Buffers.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Memory.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\ZstdSharp.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Google.Protobuf.pdb
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Google.Protobuf.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\MySql.Data.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Buffers.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Memory.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\BookNest.csproj.AssemblyReference.cache
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Home.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\MainWindow.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\SignUp.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\App.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\MyReads_MarkupCompile.cache
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\MyReads_MarkupCompile.lref
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Home.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\MainWindow.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\SignUp.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\MyReads.g.resources
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\MyReads.Properties.Resources.resources
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\BookNest.csproj.GenerateResource.cache
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\BookNest.csproj.CoreCompileInputs.cache
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\BookNest.csproj.Up2Date
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\MyReads.exe
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\MyReads.pdb
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Busqueda.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Clubs.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Libreria.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Perfil.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Busqueda.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Clubs.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Libreria.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Perfil.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\LibroInfo.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\LibroInfo.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddColeccion.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddColeccion.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddNota.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddNota.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddCategoria.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddCategoria.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddClub.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddClub.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddLectura.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddLectura.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddReview.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\ClubInfo.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Usuarios.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddReview.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\ClubInfo.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\Usuarios.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\seeReviews.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\seeReviews.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Text.Json.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.ValueTuple.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.Text.Json.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\System.ValueTuple.xml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddReto.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\AddReto.baml
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\retoInfo.g.cs
+C:\Users\ivanm\Desktop\TFG\BookNest\obj\Debug\View\retoInfo.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\MyReads.exe.config
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\MyReads.exe
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\MyReads.pdb
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Google.Protobuf.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\MySql.Data.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Buffers.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Memory.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Text.Json.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.ValueTuple.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\ZstdSharp.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Google.Protobuf.pdb
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Google.Protobuf.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\MySql.Data.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Buffers.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Memory.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Text.Json.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\System.ValueTuple.xml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\BookNest.csproj.AssemblyReference.cache
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\MyReads.exe.config
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddCategoria.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddClub.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddColeccion.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddLectura.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddNota.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddReto.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddReview.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Busqueda.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\ClubInfo.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Clubs.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Home.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Libreria.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\LibroInfo.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\MainWindow.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\retoInfo.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Perfil.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\seeReviews.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\SignUp.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Usuarios.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\App.g.cs
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\MyReads_MarkupCompile.cache
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\MyReads_MarkupCompile.lref
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddCategoria.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddClub.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddColeccion.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddLectura.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddNota.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddReto.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\AddReview.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Busqueda.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\ClubInfo.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Clubs.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Home.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Libreria.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\LibroInfo.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\MainWindow.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\retoInfo.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Perfil.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\seeReviews.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\SignUp.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\View\Usuarios.baml
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\MyReads.g.resources
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\MyReads.Properties.Resources.resources
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\BookNest.csproj.GenerateResource.cache
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\BookNest.csproj.CoreCompileInputs.cache
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\BookNest.csproj.Up2Date
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\MyReads.exe
+C:\Users\ivanm\Desktop\PROYECTO TFG\BookNest\obj\Debug\MyReads.pdb

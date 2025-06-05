@@ -1,0 +1,58 @@
+-- MySQL dump 10.13  Distrib 8.0.40, for Win64 (x86_64)
+--
+-- Host: localhost    Database: tfg
+-- ------------------------------------------------------
+-- Server version	9.1.0
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `reto`
+--
+
+DROP TABLE IF EXISTS `reto`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `reto` (
+  `idReto` int NOT NULL AUTO_INCREMENT,
+  `leido` int DEFAULT NULL,
+  `total` int DEFAULT NULL,
+  `inicio` date DEFAULT NULL,
+  `fin` date DEFAULT NULL,
+  `completado` tinyint DEFAULT NULL,
+  `Usuario_idUsuario` int NOT NULL,
+  PRIMARY KEY (`idReto`),
+  KEY `fk_Reto_Usuario1_idx` (`Usuario_idUsuario`),
+  CONSTRAINT `fk_Reto_Usuario1` FOREIGN KEY (`Usuario_idUsuario`) REFERENCES `usuario` (`idUsuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `reto`
+--
+
+LOCK TABLES `reto` WRITE;
+/*!40000 ALTER TABLE `reto` DISABLE KEYS */;
+INSERT INTO `reto` VALUES (1,16,16,'2025-05-27','2025-06-07',1,1007),(3,11,9,'2025-05-27','2025-07-05',1,10),(5,16,16,'2025-05-28','2025-05-28',1,10),(6,12,12,'2025-06-01','2025-08-14',1,1002),(8,1,8,'2025-06-01','2025-10-01',0,1002),(9,1,6,'2025-06-01','2025-10-09',0,10);
+/*!40000 ALTER TABLE `reto` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2025-06-02 19:34:05

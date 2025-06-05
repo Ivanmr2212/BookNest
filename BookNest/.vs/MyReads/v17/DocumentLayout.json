@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|c:\\users\\ivanm\\desktop\\tfg\\myreads\\view\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|solutionrelative:view\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|c:\\users\\ivanm\\desktop\\tfg\\myreads\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|c:\\users\\ivanm\\desktop\\tfg\\myreads\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|c:\\users\\ivanm\\desktop\\tfg\\myreads\\view\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|solutionrelative:view\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|c:\\users\\ivanm\\desktop\\tfg\\myreads\\persistance\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99465CB6-2110-4FAB-B50E-76488699EB3B}|MyReads.csproj|solutionrelative:persistance\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\Persistance\\DBBroker.cs",
+              "RelativeDocumentMoniker": "Persistance\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\Persistance\\DBBroker.cs",
+              "RelativeToolTip": "Persistance\\DBBroker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:15:17.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUp.xaml",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\SignUp.xaml",
+              "RelativeDocumentMoniker": "View\\SignUp.xaml",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\SignUp.xaml",
+              "RelativeToolTip": "View\\SignUp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-15T13:15:30.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\SignUp.xaml.cs",
+              "RelativeDocumentMoniker": "View\\SignUp.xaml.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\SignUp.xaml.cs",
+              "RelativeToolTip": "View\\SignUp.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:16:23.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "View\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:01:13.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ivanm\\Desktop\\TFG\\MyReads\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-15T11:52:22.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

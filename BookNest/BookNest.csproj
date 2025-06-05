@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99465CB6-2110-4FAB-B50E-76488699EB3B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyReads</RootNamespace>
+    <AssemblyName>MyReads</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.26.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.26.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.9.0.5\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Configuration.9.0.5\lib\net462\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Configuration.Abstractions.9.0.5\lib\net462\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Configuration.FileExtensions.9.0.5\lib\net462\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Configuration.Json.9.0.5\lib\net462\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.FileProviders.Abstractions.9.0.5\lib\net462\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.FileProviders.Physical.9.0.5\lib\net462\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.FileSystemGlobbing.9.0.5\lib\net462\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=9.0.0.5, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.Primitives.9.0.5\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.9.2.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Pipelines.9.0.5\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.9.0.5\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.9.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=4.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>packages\Extended.Wpf.Toolkit.4.7.25104.5739\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdSharp, Version=0.8.0.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>packages\ZstdSharp.Port.0.8.0\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Domain\Amigo.cs" />
+    <Compile Include="Domain\Categoria.cs" />
+    <Compile Include="Domain\Club.cs" />
+    <Compile Include="Domain\Coleccion.cs" />
+    <Compile Include="Domain\Frase.cs" />
+    <Compile Include="Domain\Genero.cs" />
+    <Compile Include="Domain\Libro.cs" />
+    <Compile Include="Domain\Nota.cs" />
+    <Compile Include="Domain\Registro.cs" />
+    <Compile Include="Domain\Review.cs" />
+    <Compile Include="Domain\Reto.cs" />
+    <Compile Include="Domain\Usuario.cs" />
+    <Compile Include="Persistance\CategoriaManagement.cs" />
+    <Compile Include="Persistance\ClubManagement.cs" />
+    <Compile Include="Persistance\ColeccionManagement.cs" />
+    <Compile Include="Persistance\DBBroker.cs" />
+    <Compile Include="Persistance\FraseManagement.cs" />
+    <Compile Include="Persistance\GeneroManagement.cs" />
+    <Compile Include="Persistance\LibroManagement.cs" />
+    <Compile Include="Persistance\NotaManagement.cs" />
+    <Compile Include="Persistance\RegistroManagement.cs" />
+    <Compile Include="Persistance\RetoManagement.cs" />
+    <Compile Include="Persistance\ReviewManagement.cs" />
+    <Compile Include="Persistance\UsuarioManagement.cs" />
+    <Compile Include="View\AddCategoria.xaml.cs">
+      <DependentUpon>AddCategoria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddClub.xaml.cs">
+      <DependentUpon>AddClub.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddColeccion.xaml.cs">
+      <DependentUpon>AddColeccion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddLectura.xaml.cs">
+      <DependentUpon>AddLectura.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddNota.xaml.cs">
+      <DependentUpon>AddNota.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddReto.xaml.cs">
+      <DependentUpon>AddReto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddReview.xaml.cs">
+      <DependentUpon>AddReview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Busqueda.xaml.cs">
+      <DependentUpon>Busqueda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ClubInfo.xaml.cs">
+      <DependentUpon>ClubInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Clubs.xaml.cs">
+      <DependentUpon>Clubs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Libreria.xaml.cs">
+      <DependentUpon>Libreria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LibroInfo.xaml.cs">
+      <DependentUpon>LibroInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\retoInfo.xaml.cs">
+      <DependentUpon>retoInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Perfil.xaml.cs">
+      <DependentUpon>Perfil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\seeReviews.xaml.cs">
+      <DependentUpon>seeReviews.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SignUp.xaml.cs">
+      <DependentUpon>SignUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Usuarios.xaml.cs">
+      <DependentUpon>Usuarios.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\AddCategoria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddClub.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddColeccion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddLectura.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddNota.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddReto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddReview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Busqueda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ClubInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Clubs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Libreria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LibroInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\retoInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Perfil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\seeReviews.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SignUp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Usuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\todos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\portadas\el_arbol_del_relampago.jpg" />
+    <Resource Include="Images\portadas\el_camino_de_los_reyes.jpg" />
+    <Resource Include="Images\portadas\el_estrecho_sendero_entre_deseos.jpg" />
+    <Resource Include="Images\portadas\el_nombre_del_viento.jpg" />
+    <Resource Include="Images\portadas\el_temor_de_un_hombre_sabio.jpg" />
+    <Resource Include="Images\portadas\la_musica_del_silencio.jpg" />
+    <Resource Include="Images\portadas\palabras_radiantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\portadas\aleacion_de_ley.jpg" />
+    <Resource Include="Images\portadas\antes_de_que_nos_cuelguen.jpg" />
+    <Resource Include="Images\portadas\aprendiz_de_asesino.jpg" />
+    <Resource Include="Images\portadas\arcanum_ilimitado.jpg" />
+    <Resource Include="Images\portadas\asesino_real.jpg" />
+    <Resource Include="Images\portadas\brazales_de_duelo.jpg" />
+    <Resource Include="Images\portadas\elantris.jpg" />
+    <Resource Include="Images\portadas\el_aliento_de_los_dioses.jpg" />
+    <Resource Include="Images\portadas\el_heroe_de_las_eras.jpg" />
+    <Resource Include="Images\portadas\el_hombre_iluminado.jpg" />
+    <Resource Include="Images\portadas\el_imperio_final.jpg" />
+    <Resource Include="Images\portadas\el_metal_perdido.jpg" />
+    <Resource Include="Images\portadas\el_pozo_de_la_ascension.jpg" />
+    <Resource Include="Images\portadas\el_ritmo_de_la_guerra.jpg" />
+    <Resource Include="Images\portadas\el_ultimo_argumento_de_los_reyes.jpg" />
+    <Resource Include="Images\portadas\juramentada.jpg" />
+    <Resource Include="Images\portadas\las_naves_del_destino.jpg" />
+    <Resource Include="Images\portadas\las_naves_de_la_locura.jpg" />
+    <Resource Include="Images\portadas\las_naves_de_la_magia.jpg" />
+    <Resource Include="Images\portadas\la_busqueda_del_asesino.jpg" />
+    <Resource Include="Images\portadas\la_suerte_del_bufon.jpg" />
+    <Resource Include="Images\portadas\la_voz_de_las_espadas.jpg" />
+    <Resource Include="Images\portadas\sombras_de_identidad.jpg" />
+    <Resource Include="Images\portadas\trenza_del_mar_esmeralda.jpg" />
+    <Resource Include="Images\portadas\viento_y_verdad.jpg" />
+    <Resource Include="Images\portadas\yumi_y_el_pintor_de_pesadillas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\portadas\1984.jpg" />
+    <Resource Include="Images\portadas\amanecer_rojo.jpg" />
+    <Resource Include="Images\portadas\anna_karenina.jpg" />
+    <Resource Include="Images\portadas\bajo_la_misma_estrella.jpg" />
+    <Resource Include="Images\portadas\carrie.jpg" />
+    <Resource Include="Images\portadas\casa_capitular_dune.jpg" />
+    <Resource Include="Images\portadas\cementerio_de_animales.jpg" />
+    <Resource Include="Images\portadas\choque_de_reyes.jpg" />
+    <Resource Include="Images\portadas\cien_anos_de_soledad.jpg" />
+    <Resource Include="Images\portadas\como_agua_por_chocolate.jpg" />
+    <Resource Include="Images\portadas\crepusculo.jpg" />
+    <Resource Include="Images\portadas\cronica_de_una_muerte_anunciada.jpg" />
+    <Resource Include="Images\portadas\cumbres_borrascosas.jpg" />
+    <Resource Include="Images\portadas\danza_de_dragones.jpg" />
+    <Resource Include="Images\portadas\dios_emperador_de_dune.jpg" />
+    <Resource Include="Images\portadas\don_quijote_de_la_mancha.jpg" />
+    <Resource Include="Images\portadas\dracula.jpg" />
+    <Resource Include="Images\portadas\dune.jpg" />
+    <Resource Include="Images\portadas\edad_oscura.jpg" />
+    <Resource Include="Images\portadas\eleanor_park.jpg" />
+    <Resource Include="Images\portadas\el_almuerzo_desnudo.jpg" />
+    <Resource Include="Images\portadas\el_alquimista.jpg" />
+    <Resource Include="Images\portadas\el_bosque_oscuro.jpg" />
+    <Resource Include="Images\portadas\el_codigo_da_vinci.jpg" />
+    <Resource Include="Images\portadas\el_cuento_de_la_criada.png" />
+    <Resource Include="Images\portadas\el_dador.jpg" />
+    <Resource Include="Images\portadas\el_diario_de_ana_frank.jpg" />
+    <Resource Include="Images\portadas\el_exorcista.jpg" />
+    <Resource Include="Images\portadas\el_fantasma_de_la_opera.jpg" />
+    <Resource Include="Images\portadas\el_fin_de_la_muerte.jpg" />
+    <Resource Include="Images\portadas\el_gran_gatsby.jpg" />
+    <Resource Include="Images\portadas\el_invierno_del_mundo.jpg" />
+    <Resource Include="Images\portadas\el_juez_de_egipto.jpg" />
+    <Resource Include="Images\portadas\el_leon_la_bruja_y_el_armario.jpg" />
+    <Resource Include="Images\portadas\el_lobo_estepario.jpg" />
+    <Resource Include="Images\portadas\el_mesias_de_dune.jpg" />
+    <Resource Include="Images\portadas\el_nombre_de_la_rosa.jpg" />
+    <Resource Include="Images\portadas\el_otono_del_patriarca.jpg" />
+    <Resource Include="Images\portadas\el_problema_de_los_tres_cuerpos.jpg" />
+    <Resource Include="Images\portadas\el_resplandor.jpg" />
+    <Resource Include="Images\portadas\el_retrato_de_dorian_gray.jpg" />
+    <Resource Include="Images\portadas\el_retrato_de_un_artista_adolescente.jpg" />
+    <Resource Include="Images\portadas\el_tambor_de_hojalata.jpg" />
+    <Resource Include="Images\portadas\el_tunel.jpg" />
+    <Resource Include="Images\portadas\el_umbral_de_la_eternidad.jpg" />
+    <Resource Include="Images\portadas\el_viejo_y_el_mar.jpg" />
+    <Resource Include="Images\portadas\empire_of_silence.jpg" />
+    <Resource Include="Images\portadas\en_busca_del_tiempo_perdido.jpg" />
+    <Resource Include="Images\portadas\en_llamas.jpg" />
+    <Resource Include="Images\portadas\fahrenheit_451.jpg" />
+    <Resource Include="Images\portadas\festin_de_cuervos.jpg" />
+    <Resource Include="Images\portadas\frankenstein.jpg" />
+    <Resource Include="Images\portadas\gai_jin.jpg" />
+    <Resource Include="Images\portadas\guerra_y_paz.jpg" />
+    <Resource Include="Images\portadas\harry_potter_piedra_filosofal.jpg" />
+    <Resource Include="Images\portadas\herejes_de_dune.jpg" />
+    <Resource Include="Images\portadas\hijo_dorado.png" />
+    <Resource Include="Images\portadas\hyperion.jpg" />
+    <Resource Include="Images\portadas\it.jpg" />
+    <Resource Include="Images\portadas\juego_de_tronos.jpg" />
+    <Resource Include="Images\portadas\las_intermitencias_de_la_muerte.jpg" />
+    <Resource Include="Images\portadas\la_carretera.jpg" />
+    <Resource Include="Images\portadas\la_casa_de_los_espiritus.jpg" />
+    <Resource Include="Images\portadas\la_caza.jpg" />
+    <Resource Include="Images\portadas\la_chica_del_tren.jpg" />
+    <Resource Include="Images\portadas\la_ciudad_y_los_perros.jpg" />
+    <Resource Include="Images\portadas\la_guerra_civil_espanola.jpg" />
+    <Resource Include="Images\portadas\la_guerra_de_los_mundos.jpg" />
+    <Resource Include="Images\portadas\la_historia_interminable.jpg" />
+    <Resource Include="Images\portadas\la_insoportable_levedad_del_ser.jpg" />
+    <Resource Include="Images\portadas\la_invencion_de_morel.jpg" />
+    <Resource Include="Images\portadas\la_isla_del_tesoro.jpg" />
+    <Resource Include="Images\portadas\la_isla_de_los_conejos.jpg" />
+    <Resource Include="Images\portadas\la_ladrona_de_libros.jpg" />
+    <Resource Include="Images\portadas\la_llamada_de_cthulhu.jpg" />
+    <Resource Include="Images\portadas\la_maldicion_de_hill_house.jpg" />
+    <Resource Include="Images\portadas\la_naranja_mecanica.png" />
+    <Resource Include="Images\portadas\la_peste.jpg" />
+    <Resource Include="Images\portadas\la_senora_dalloway.jpg" />
+    <Resource Include="Images\portadas\la_sombra_del_viento.jpg" />
+    <Resource Include="Images\portadas\la_sombra_sobre_innsmouth.jpg" />
+    <Resource Include="Images\portadas\la_torre_oscura.jpg" />
+    <Resource Include="Images\portadas\la_tregua.jpg" />
+    <Resource Include="Images\portadas\la_vida_secreta_de_las_abejas.jpg" />
+    <Resource Include="Images\portadas\la_voz_dormida.jpg" />
+    <Resource Include="Images\portadas\los_detectives_salvajes.jpg" />
+    <Resource Include="Images\portadas\los_hijos_de_dune.jpg" />
+    <Resource Include="Images\portadas\los_juegos_del_hambre.jpg" />
+    <Resource Include="Images\portadas\los_miserables.jpg" />
+    <Resource Include="Images\portadas\los_puentes_de_madison_county.png" />
+    <Resource Include="Images\portadas\lo_que_el_viento_se_llevo.jpg" />
+    <Resource Include="Images\portadas\manana_azul.jpg" />
+    <Resource Include="Images\portadas\matar_a_un_ruiseñor.jpg" />
+    <Resource Include="Images\portadas\me_before_you.jpg" />
+    <Resource Include="Images\portadas\moby_dick.jpg" />
+    <Resource Include="Images\portadas\nunca_me_abandones.jpg" />
+    <Resource Include="Images\portadas\orgullo_y_prejuicio.jpg" />
+    <Resource Include="Images\portadas\oro_y_ceniza.jpg" />
+    <Resource Include="Images\portadas\pedro_paramo.jpg" />
+    <Resource Include="Images\portadas\promesa_de_sangre.jpg" />
+    <Resource Include="Images\portadas\proyecto_hail_mary.jpg" />
+    <Resource Include="Images\portadas\saga.jpg" />
+    <Resource Include="Images\portadas\shogun.jpg" />
+    <Resource Include="Images\portadas\tai_pan.jpg" />
+    <Resource Include="Images\portadas\tormenta_de_espadas.jpg" />
+    <Resource Include="Images\portadas\v_de_vendetta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\perfil_defecto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\grupo_perfil_defecto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\starEmpty.png" />
+    <Resource Include="Images\starFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\portadas\la_caida_de_los_gigantes.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

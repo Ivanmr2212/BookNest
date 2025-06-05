@@ -1,0 +1,64 @@
+﻿<Window x:Class="MyReads.View.AddClub"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyReads.View"
+        mc:Ignorable="d"
+        Title="AddClub" Height="550" Width="600"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        MouseDown="Window_MouseDown"
+        AllowsTransparency="True">
+    <Border>
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="None"></ImageBrush>
+        </Border.Background>
+        <Border CornerRadius="0" Background="#ddd5c1"  BorderBrush="#b3964f" BorderThickness="5" Opacity="0.95">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="1.2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.14*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="0.17*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Grid.Row="0" Margin="0,-11,0,0" >
+                    <Label Content="CREAR CLUB" VerticalAlignment="Center"  FontWeight="Bold" Foreground="White" Background="#b3964f" FontSize="34" Width="591"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="1" Margin="20,20,20,20" Cursor="">
+                    <Label Content="Nombre:" FontWeight="Bold" Background="Transparent" FontStyle="Italic" Foreground="Black" FontSize="26"></Label>
+                    <TextBox x:Name="txtNombre" FontSize="14" FontWeight="Bold" FontStyle="Italic" Background="Transparent" CaretBrush="Black" BorderBrush="Black" BorderThickness="0,0,0,1" Height="28" VerticalContentAlignment="Center" Margin="0,0,0,0"></TextBox>
+                    <Label Content="Descripción: " Margin="0,20,0,0" FontWeight="Bold" Background="Transparent" FontStyle="Italic" Foreground="Black" FontSize="26"></Label>
+                    <TextBox x:Name="txtContenido" FontSize="14" FontWeight="Bold" FontStyle="Italic" TextWrapping="Wrap" Height="112"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Lectura: " Margin="0,20,0,0" FontWeight="Bold" Background="Transparent" FontStyle="Italic" Foreground="Black" FontSize="26"></Label>
+                        <Button x:Name="botonElegirLectura" Height="40" Width="40" BorderThickness="0" Margin="50,20,0,0" Click="botonElegirLectura_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="/Images/mas.png"/>
+                            </Button.Background>
+                        </Button>
+                    </StackPanel>
+                    <TextBox x:Name="txtLectura" IsReadOnly="True" FontSize="14" FontWeight="Bold" FontStyle="Italic" Background="Transparent" CaretBrush="Black" BorderBrush="Black" BorderThickness="0,0,0,1" Height="28" VerticalContentAlignment="Center" Margin="0,0,0,0"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Column="1" Margin="20,37,20,0" Background="#b3964f" Grid.RowSpan="3">
+                    <Label Content="Amigos: " FontWeight="Bold" Background="Transparent" FontStyle="Italic" Foreground="White" FontSize="26" HorizontalAlignment="Center" Margin="0,39,0,0"></Label>
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden" Margin="20,10,10,0" Height="160">
+                        <StackPanel x:Name="panelAmigos"></StackPanel>
+                    </ScrollViewer>
+                    <Label Content="Miembros: " FontWeight="Bold" Background="Transparent" FontStyle="Italic" Foreground="White" FontSize="26" HorizontalAlignment="Center" Margin="0,10,0,0"></Label>
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden" Margin="20,10,10,0" Height="160">
+                        <StackPanel x:Name="panelAmigosAdd"></StackPanel>
+                    </ScrollViewer>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,10,0,10">
+                    <Button x:Name="botonAddClub" Content="Crear club" FontStyle="Italic" FontWeight="Bold" FontSize="18" Background="#FF51370C" Foreground="White" Width="120" Margin="10,0,10,0" Click="botonAddClub_Click"/>
+                    <Button x:Name="botonVolver" Content="Volver" FontStyle="Italic" FontWeight="Bold" FontSize="18" Background="#FF51370C" Foreground="White" Width="120" Margin="10,0,0,0" Click="botonVolver_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

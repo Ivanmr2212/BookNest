@@ -1,0 +1,77 @@
+﻿<Window x:Class="MyReads.View.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyReads.View"
+        mc:Ignorable="d"
+        Title="Home" Height="550" Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        MouseDown="Window_MouseDown"
+        AllowsTransparency="True">
+
+    <Border>
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="None"></ImageBrush>
+        </Border.Background>
+        <Border CornerRadius="0" Background="#ddd5c1"  BorderBrush="#b3964f" BorderThickness="5" Opacity="0.95">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="510"/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="0.08*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1">
+                        <Button x:Name="BotonMinimizar" Background="#b3964f" BorderThickness="0" Content="-" Foreground="BLACK" FontSize="20" FontFamily="Montserrat" Cursor="Hand" Grid.Column="0" Margin="0,0,0,0" Width="30" Click="BotonMinimizar_Click"/>
+                        <Button x:Name="BotonCerrar" Background="#b3964f"  BorderThickness="0" Content="X" Foreground="BLACK" FontSize="20" FontFamily="Montserrat" Cursor="Hand" Grid.Column="1" Height="30" VerticalAlignment="Center" Grid.ColumnSpan="3" Margin="0,0,0,0" Click="BotonCerrar_Click" Width="30" ></Button>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.3*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Vertical" Grid.Column="0" Background="#FFB3964F" Margin="0,-31,0,0" >
+                        <Label FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontSize="34">
+                            <TextBlock Text="BookNest" TextDecorations="Underline"/>
+                        </Label>
+                        <StackPanel Orientation="Vertical" Margin="0,10,0,20">
+                            <Button x:Name="botonBusqueda" Content="BUSCAR" FontWeight="Bold" FontSize="30" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,20,0,0" Click="botonBusqueda_Click"/>
+                            <Button x:Name="botonLibreria" Content="BIBLIOTECA" FontWeight="Bold" FontSize="30" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,20,0,0" Click="botonLibreria_Click"/>
+                            <Button x:Name="botonClubs" Content="CLUBS" FontWeight="Bold" FontSize="30" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,20,0,0" Click="botonClubs_Click"/>
+                            <Button x:Name="botonUsuarios" Content="USUARIOS" FontWeight="Bold" FontSize="30" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,20,0,0" Click="botonUsuarios_Click"/>
+                            <Button x:Name="botonPerfil" Content="PERFIL" FontWeight="Bold" FontSize="30" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,20,0,0" Click="botonPerfil_Click"/>
+                            <Button x:Name="botonSalir" Content="SALIR" FontWeight="Bold" FontSize="30" Background="Transparent" Foreground="White" BorderThickness="0" Margin="0,20,0,0" Click="BotonCerrar_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <Rectangle HorizontalAlignment="Left" StrokeThickness="2" Height="572" Margin="182,-46,0,0" Stroke="Black" VerticalAlignment="Top" Width="2" RadiusY="5" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+                        <Rectangle.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleX="-1"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Rectangle.RenderTransform>
+                    </Rectangle>
+                    <StackPanel Grid.Column="2" Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                            <Label x:Name="labelBienvenida" FontSize="24" FontWeight="Bold" Margin="20,0,0,0"/>
+                        </StackPanel>
+                        <Label Content="Descubre lo que hacen tus amigos" FontSize="24" FontWeight="Bold" Margin="0,0,0,0" Width="568"/>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Height="337" Width="540" Margin="20,20,0,0">
+                            <StackPanel x:Name="panelNovedades">
+                            </StackPanel>
+                        </ScrollViewer>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

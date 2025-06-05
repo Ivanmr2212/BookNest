@@ -1,0 +1,101 @@
+﻿<Window x:Class="MyReads.View.Busqueda"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyReads.View"
+        mc:Ignorable="d"
+        Title="Busqueda" Height="450" Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        MouseDown="Window_MouseDown"
+        AllowsTransparency="True">
+    <Border>
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="None"></ImageBrush>
+        </Border.Background>
+        <Border CornerRadius="0" Background="#ddd5c1"  BorderBrush="#b3964f" BorderThickness="5" Opacity="0.95">
+            <Grid Background="#FFEDE5D1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.08*"/>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right">
+                    <Button x:Name="BotonMinimizar" Background="#b3964f" BorderThickness="0" Content="-" Foreground="BLACK" FontSize="20" FontFamily="Montserrat" Cursor="Hand" Grid.Column="0" Margin="0,0,0,0" Width="30" Click="BotonMinimizar_Click" HorizontalAlignment="Right"/>
+                    <Button x:Name="BotonCerrar" Background="#b3964f"  BorderThickness="0" Content="X" Foreground="BLACK" FontSize="20" FontFamily="Montserrat" Cursor="Hand" Grid.Column="1" Height="30" VerticalAlignment="Center" Grid.ColumnSpan="3" Margin="0,0,0,0" Click="BotonCerrar_Click" Width="30" HorizontalAlignment="Right" ></Button>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.RowSpan="3" Background="#FFB3964F">
+                    <Label FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontSize="34">
+                        <TextBlock Text="BookNest" TextDecorations="Underline"/>
+                    </Label>
+                    <Label FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontSize="24" Content="Filtros"></Label>
+                    <Label Content="Generos" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" FontSize="20" Margin="5,10,0,0"></Label>
+                    <ComboBox x:Name="comboBoxGeneros" Width="150" Height="40" FontSize="16" Background="#FFB3964F" BorderBrush="#FFB3964F" Foreground="Black" HorizontalAlignment="Left" Margin="10,0,0,0" SelectionChanged="comboBoxGeneros_SelectionChanged">
+                        <ComboBox.ItemContainerStyle>
+                            <Style TargetType="ComboBoxItem">
+                                <Setter Property="Background" Value="#FF51370C"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Style>
+                        </ComboBox.ItemContainerStyle>
+                    </ComboBox>
+                    <Label Content="Publicacion" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" FontSize="20" Margin="5,10,0,0"></Label>
+                    <RadioButton x:Name="radioButton2010" Content="2010-Actual" FontSize="16" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" Checked="radioButton2010_Checked"/>
+                    <RadioButton x:Name="radioButton2000" Content="2000-2009" FontSize="16" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" Checked="radioButton200_Checked"/>
+                    <RadioButton x:Name="radioButton1999" Content="Anterior-1999" FontSize="16" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" Checked="radioButton1999_Checked"/>
+                    <Label Content="Cant. Páginas" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" FontSize="20" Margin="5,10,0,0"></Label>
+                    <CheckBox x:Name="check800" Content="Largo(+800)" FontSize="16" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" Checked="check800_Checked"/>
+                    <CheckBox x:Name="check400" Content="Mediano (400-799)" FontSize="16" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" Checked="check400_Checked"/>
+                    <CheckBox x:Name="check399" Content="Pequeño (-399)" FontSize="16" Foreground="White" Margin="20,0,0,0" VerticalAlignment="Center" Checked="check399_Checked"/>
+                    <Button x:Name="botonQuitarFiltro" Content="Quitar filtros" FontStyle="Italic" FontWeight="Bold" FontSize="16" Margin="0,10,0,0" Background="#FF51370C" Foreground="White" HorizontalAlignment="Center" Click="botonQuitarFiltro_Click"></Button>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="1">
+                    <Label FontWeight="Bold" Content="Filtra por titulo, autor o editorial:" FontSize="16" HorizontalAlignment="Center"></Label>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBox x:Name="txtBusqueda" Width="455" Margin="0,0,0,0" Height="30" TextChanged="txtBusqueda_TextChanged"/>
+                        <Image Source="/Images/search.png" Width="27" OpacityMask="White" Height="39"></Image>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Row="2" Grid.Column="2">
+                    <DataGrid x:Name="gridBusqueda" FontSize="14" ItemsSource="{Binding Libro}" IsReadOnly="true" AutoGenerateColumns="False"  HeadersVisibility="Column" RowBackground="LightGray"  AlternatingRowBackground="WhiteSmoke" BorderBrush="Black" BorderThickness="2" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeColumns="True" SelectionMode="Single" SelectionUnit="FullRow" HorizontalGridLinesBrush="Gray" VerticalGridLinesBrush="Gray" Width="553" Margin="0,20,0,0" Height="255">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#FFB3964F"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Padding" Value="10"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Titulo" Binding="{Binding titulo}"/>
+                            <DataGridTextColumn Header="Autor" Binding="{Binding autor}"/>
+                            <DataGridTextColumn Header="Editorial" Binding="{Binding editorial}"/>
+                            <DataGridTextColumn Header="Publicacion" Binding="{Binding year}"/>
+                            <DataGridTextColumn Header="NumPags" Binding="{Binding numPags}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <StackPanel Orientation="Horizontal" Margin="0,30,0,0" HorizontalAlignment="Center">
+                        <Button x:Name="botonSelect" Content="Seleccionar Libro" FontStyle="Italic" FontWeight="Bold" FontSize="20" Margin="0,0,5,0" Background="#FF51370C" Foreground="White" Click="botonSelect_Click"></Button>
+                        <Button x:Name="botonCancel" Content="Cancelar Busqueda" FontStyle="Italic" FontWeight="Bold" FontSize="20" Margin="5,0,0,0" Background="#FF51370C" Foreground="White" Click="botonCancel_Click"></Button>
+                        <Button x:Name="botonGenerateLibros" Content="Generar Libros" FontStyle="Italic" FontWeight="Bold" FontSize="20" Margin="50,0,0,0" Background="#FF51370C" Foreground="White" Click="botonGenerateLibros_Click"></Button>
+                    </StackPanel>
+                </StackPanel>
+                <Rectangle HorizontalAlignment="Left" StrokeThickness="2" Height="510" Grid.RowSpan="3" Margin="184,-30,0,0" Stroke="Black" VerticalAlignment="Top" Width="2" RadiusY="5" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

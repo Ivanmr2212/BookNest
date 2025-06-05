@@ -1,0 +1,49 @@
+﻿<Window x:Class="MyReads.View.AddColeccion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyReads.View"
+        mc:Ignorable="d"
+        Title="AddColeccion" Height="359" Width="450"    WindowStyle="None"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    MouseDown="Window_MouseDown"
+    Background="Transparent"
+    AllowsTransparency="True">
+
+    <Border CornerRadius="50">
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="None"></ImageBrush>
+        </Border.Background>
+        <Border CornerRadius="20" Background="#ddd5c1"  BorderBrush="#b3964f" BorderThickness="5" Opacity="0.95">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0.3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Vertical" Grid.Column="1" Background="#FFB3964F">
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0" HorizontalAlignment="Center" Width="242">
+                        <Image Source="/Images/logo.png" Width="51" OpacityMask="White"></Image>
+                        <Label FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontSize="34">
+                            <TextBlock Text="BookNest" TextDecorations="Underline"/>
+                        </Label>
+                    </StackPanel>
+                    <Label FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontSize="24" Content="Crear coleccion" FontStyle="Italic"></Label>
+                    <StackPanel Orientation="Vertical" Margin="0,40,0,0" HorizontalAlignment="Center">
+                        <Label Content="Nombre:" FontStyle="Italic" FontWeight="Bold" FontSize="24" Foreground="White" Width="250" />
+                        <TextBox x:Name="txtColeccion" FontSize="13" FontWeight="Medium" FontFamily="Montserrat" Background="Transparent" CaretBrush="Black" BorderBrush="Black" BorderThickness="0,0,0,1" Height="28" VerticalContentAlignment="Center" Margin="0,0,0,0" Width="224"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,40,0,0" HorizontalAlignment="Center">
+                        <Button x:Name="botonCancelar" Content="Cancelar" Background="#FF51370C" Foreground="White" FontSize="30" Margin="0,0,5,0" Width="120" Click="botonCancelar_Click"></Button>
+                        <Button x:Name="botonAddColec" Content="Aceptar" Background="#FF51370C" Foreground="White" FontSize="30" Margin="5,0,0,0" Width="120" Click="botonAddColec_Click"></Button>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

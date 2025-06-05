@@ -1,0 +1,57 @@
+﻿<Window x:Class="MyReads.View.modReto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyReads.View"
+        mc:Ignorable="d"
+        Title="modReto" Height="410" Width="450"    WindowStyle="None"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    MouseDown="Window_MouseDown"
+    Background="Transparent"
+    AllowsTransparency="True">
+
+    <Border CornerRadius="50">
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="None"></ImageBrush>
+        </Border.Background>
+        <Border CornerRadius="20" Background="#ddd5c1"  BorderBrush="#b3964f" BorderThickness="5" Opacity="0.95">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0.3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Vertical" Grid.Column="1" Background="#FFB3964F">
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0" HorizontalAlignment="Center" Width="242">
+                        <Image Source="/Images/logo.png" Width="51" OpacityMask="White"></Image>
+                        <Label FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontSize="34">
+                            <TextBlock Text="BookNest" TextDecorations="Underline"/>
+                        </Label>
+                    </StackPanel>
+                    <Label FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" FontSize="24" Content="Actualizar reto" FontStyle="Italic"></Label>
+                    <StackPanel Orientation="Horizontal" Margin="0,40,0,0" HorizontalAlignment="Center">
+                        <Label Content="Libros leidos:" FontStyle="Italic" FontWeight="Bold" FontSize="24" Foreground="White" Width="156" />
+                        <StackPanel Orientation="Vertical" Margin="10,0,0,0">
+                            <Slider x:Name="sliderNumero" Minimum="0" Maximum="50" ValueChanged="sliderNumero_ValueChanged"
+            TickFrequency="1" IsSnapToTickEnabled="True" Width="100"/>
+                            <Label x:Name="labelTotal" Margin="0,10,0,0" FontSize="16" Content="0" FontStyle="Italic" FontWeight="Bold"  Foreground="White"></Label>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Margin="0,10,0,0" HorizontalAlignment="Center">
+                        <Label Content="Fin del reto:" FontStyle="Italic" FontWeight="Bold" FontSize="24" Foreground="White" Width="156" />
+                        <DatePicker x:Name="fechaPicker" SelectedDate="{Binding FechaSeleccionada}" Width="249" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0" HorizontalAlignment="Center">
+                        <Button x:Name="botonCancelar" Content="Cancelar" Background="#FF51370C" Foreground="White" FontSize="30" Margin="0,0,5,0" Width="120" Click="botonVolver_Click"></Button>
+                        <Button x:Name="botonModReto" Content="Aceptar" Background="#FF51370C" Foreground="White" FontSize="30" Margin="5,0,0,0" Width="120" Click="botonModReto_Click"></Button>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>

@@ -1,0 +1,42 @@
+﻿<Window x:Class="MyReads.View.ClubInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyReads.View"
+        mc:Ignorable="d"
+        Title="ClubInfo" Height="550" Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        MouseDown="Window_MouseDown"
+        AllowsTransparency="True">
+    <Border>
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="None"></ImageBrush>
+        </Border.Background>
+        <Border CornerRadius="0" Background="#ddd5c1"  BorderBrush="#b3964f" BorderThickness="5" Opacity="0.95">
+            <Grid Background="#FFEDE5D1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Background="#FFB3964F">
+                    <Button Content="LECTURAS" FontSize="40" FontStyle="Italic" Foreground="White" Background="Transparent" FontWeight="Bold" Margin="20,0,47,0" BorderThickness="0"></Button>
+                    <Button Content="CALENDARIO" FontSize="40" FontStyle="Italic" Foreground="White" Background="Transparent" FontWeight="Bold" Margin="0,0,47,0" BorderThickness="0"></Button>
+                    <Button Content="MIEMBROS" FontSize="40" FontStyle="Italic" Foreground="White" Background="Transparent" FontWeight="Bold" Margin="0,0,7,0" BorderThickness="0"></Button>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="1">
+
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="1">
+
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>
